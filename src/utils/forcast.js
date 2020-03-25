@@ -20,7 +20,7 @@ request({url, json: true},(error,{body}={}) =>{
         // precipProbability:data.currently.precipProbability
     (data.daily.data[0].summary+' It is currently '+data.currently.temperature+' degrees out. This high today is '+data.daily.data[0].temperatureHigh +', And Low '+data.daily.data[0].temperatureLow +' There is a '+data.currently.precipProbability+'% chance of rain.'))
     
-console.log(data)}
+}
 })
 }
 
